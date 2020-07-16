@@ -1,0 +1,70 @@
+.logo {
+    width: 80px;
+    height: 80px;
+}
+.container-fluid {
+    padding: 0;
+    background-color: white;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+
+.main_section {
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+}
+
+
+.image_main {
+    height: 500px;
+    width: 100%;
+    padding: 0;
+    background-repeat: no-repeat;
+    
+}
+
+#main .carousel-inner  img {
+    max-height: 70vh;
+    object-fit: cover;
+    
+}
+#main .carousel-inner  img {    
+    max-height: 70vh;
+    object-fit: cover;
+    
+}
+
+
+
+#carousel {
+    position: relative;
+
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+.text-main {
+    font-size: 35px;
+}
+
+.menup {
+    z-index: 1000;
+    position: fixed;
+}
